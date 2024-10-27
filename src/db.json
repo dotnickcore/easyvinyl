@@ -1,0 +1,171 @@
+{
+    "artists": [
+        {
+            "id": "aa0a2292-9dd1-4d11-bba2-a6501f29e11f",
+            "name": "Queen",
+            "bio": "Queen is a British rock band formed in London in 1970, known for their diverse musical style and theatrical performances. The band’s classic lineup—Freddie Mercury (vocals, piano), Brian May (guitar), Roger Taylor (drums), and John Deacon (bass)—crafted anthems blending rock, pop, and opera, including hits like “Bohemian Rhapsody,” “We Will Rock You,” and “Another One Bites the Dust.” Queen’s influence spans genres, and their groundbreaking live performances, notably at Live Aid in 1985, cemented their status as rock icons. Their impact endures, making Queen one of the most celebrated bands in music history.",
+            "artist_image": "https://i.scdn.co/image/af2b8e57f6d7b5d43a616bd1e27ba552cd8bfd42"
+        }
+    ],
+    "genres": [
+        {
+            "id": "440c2f17-253e-42cb-93d2-53a3b781dbce",
+            "name": "rock"
+        },
+        {
+            "id": "53a141af-c8e1-458f-ab83-23e004a9fa7d",
+            "name": "hip_hop"
+        },
+        {
+            "id": "59fef5af-2a77-42bc-a81e-b4c9de9caf1f",
+            "name": "alternative"
+        },
+        {
+            "id": "5c9021ed-3bcc-4629-9165-c26c7eb2e98e",
+            "name": "electronic"
+        },
+        {
+            "id": "5ae1adfe-89e9-47a9-81c8-1af521887858",
+            "name": "metal"
+        },
+        {
+            "id": "5613d998-c5ca-4352-ae51-c097e69a3f87",
+            "name": "punk"
+        },
+        {
+            "id": "65f9f781-41bd-48e6-9236-057927c7fd16",
+            "name": "jazz"
+        },
+        {
+            "id": "a7315877-4829-4fe3-a861-71e485fd9a0d",
+            "name": "blues"
+        },
+        {
+            "id": "7c3f6bd6-8c73-4764-81c1-9be0f344a406",
+            "name": "soul"
+        },
+        {
+            "id": "fb26dfd7-2f76-4dc4-aa78-3f313a00d0e1",
+            "name": "soundtracks"
+        },
+        {
+            "id": "94dc8945-1be1-45b7-af69-a04aa993aac3",
+            "name": "reggae"
+        },
+        {
+            "id": "efaca0df-7952-4c13-b2cf-2d3fc0da979a",
+            "name": "classical"
+        },
+        {
+            "id": "b7386a14-1407-47d5-acd7-8bc03cbd17b4",
+            "name": "country"
+        },
+        {
+            "id": "3accc8d1-4bcb-4bb1-b5f9-a39b9bcae811",
+            "name": "world"
+        },
+        {
+            "id": "c4995395-2b01-4ba9-ba95-75c5c5bb9889",
+            "name": "folk"
+        }
+    ],
+    "vinyls": [
+        {
+            "id": "23fc5948-8a69-407a-8876-70e61fe39607",
+            "name": "Queen 1 (2024 Mix Vinyl)",
+            "bio": "Queen\"'s self-titled 1973 debut album has been remixed and restored. Queen I \"- 2024 Mix of the album now includes “Mad The Swine”, a song absent from the original LP. This is the first time that a Queen album has ever received a new stereo mix. Available in 180g Black Vinyl",
+            "track_listing": {
+                "LP - Side A": [
+                    {
+                        "track_number": 1,
+                        "track_name": "Keep Yourself Alive"
+                    },
+                    {
+                        "track_number": 2,
+                        "track_name": "Doing All Right"
+                    },
+                    {
+                        "track_number": 3,
+                        "track_name": "Great King Rat"
+                    },
+                    {
+                        "track_number": 4,
+                        "track_name": "Mad The Swine"
+                    },
+                    {
+                        "track_number": 5,
+                        "track_name": "My Fairy King"
+                    }
+                ],
+                "LP - Side B": [
+                    {
+                        "track_number": 1,
+                        "track_name": "Liar"
+                    },
+                    {
+                        "track_number": 2,
+                        "track_name": "The Night Comes Down"
+                    },
+                    {
+                        "track_number": 3,
+                        "track_name": "Modern Times Rock n Roll"
+                    },
+                    {
+                        "track_number": 4,
+                        "track_name": "Son And Daughter"
+                    },
+                    {
+                        "track_number": 5,
+                        "track_name": "Jesus"
+                    },
+                    {
+                        "track_number": 6,
+                        "track_name": "Seven Seas Of Rhye"
+                    }
+                ]
+            },
+            "genre": "440c2f17-253e-42cb-93d2-53a3b781dbce",
+            "vinyl_grade": "7094c470-c1b3-4e86-bd23-50c77f2dc37a",
+            "conditon": "New",
+            "vinyl_image": "https://i.scdn.co/image/ab67616d0000b27392073196b99e8438a53c0cfd",
+            "format": "LP"
+        }
+    ],
+    "vinyls_grade": [
+        {
+            "id": "7094c470-c1b3-4e86-bd23-50c77f2dc37a",
+            "name": "Mint",
+            "symbol": "M"
+        },
+        {
+            "id": "ccc62394-f3b9-4391-8e2a-d0978b92a526",
+            "name": "Near Mint",
+            "symbol": "NM"
+        },
+        {
+            "id": "736c8772-6cda-46f7-bd7b-2bb6b610443d",
+            "name": "Excellent",
+            "symbol": "E"
+        },
+        {
+            "id": "597c8ce8-9180-41b8-a99c-be6faf926769",
+            "name": "Very Good Plus",
+            "symbol": "VG+"
+        },
+        {
+            "id": "4d881bb3-9abb-4f11-aa2c-3bc181acfa44",
+            "name": "Very Good",
+            "symbol": "VG"
+        },
+        {
+            "id": "a02d0975-e838-4c5c-88c7-e1b4bba4ae44",
+            "name": "Good",
+            "symbol": "G"
+        },
+        {
+            "id": "75a20aff-f10d-4cdf-9980-280eb8238a49",
+            "name": "Poor",
+            "symbol": "P"
+        }
+    ]
+}
