@@ -1,15 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import useStyles from './navstyles'
 import { AppBar, IconButton, Toolbar, Drawer, Button, Avatar, useMediaQuery } from '@mui/material';
 import { Menu, AccountCircle, Brightness4, Brightness7 } from '@mui/icons-material'
 import { useTheme } from '@mui/material/styles';
 import { Link } from 'react-router-dom';
+import Sidebar from '../Sidebar/Sidebar';
 
 function NavBar() {
   const classes = useStyles();
   const isMobile = useMediaQuery('(max-width:600px)');
   const theme = useTheme();
   const isAuthenticated = true;
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
     <>
@@ -20,7 +22,7 @@ function NavBar() {
                color='inherit'
                edge="start"
                style={{ outline: 'none' }}
-               onClick={() => {}}
+               onClick={() => setMobileOpen((prevMobileOpen) => !prevMobileOpen)}
                className={classes.menuButton}
               >
                 <Menu/>
@@ -57,6 +59,28 @@ function NavBar() {
             {isMobile && 'Search..'}
           </Toolbar>
         </AppBar>
+
+        <div>
+          <nav className={classes.drawer}>
+            {isMobile? (
+              <Drawer
+                variant='temporary'
+                anchor='right'
+                open={mobileOpen}
+                onClose={() => setMobileOpen((prevMobileOpen) => !prevMobileOpen)}
+                classes={{ paper: classes.drawerPaper }}
+                ModalProps={{ keepMounted: true }}
+              >
+                <Sidebar setMobileOpen={setMobileOpen} />
+              </Drawer>
+            ): (
+                <Drawer classes={{ paper: classes.drawerPaper }} 
+                variant='permanent' open>
+                  <Sidebar setMobileOpen={setMobileOpen} />
+                </Drawer>
+            )}
+          </nav>
+        </div>
     </>
   )
 }
