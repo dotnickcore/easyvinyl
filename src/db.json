@@ -5,6 +5,18 @@
             "name": "Queen",
             "bio": "Queen is a British rock band formed in London in 1970, known for their diverse musical style and theatrical performances. The band’s classic lineup—Freddie Mercury (vocals, piano), Brian May (guitar), Roger Taylor (drums), and John Deacon (bass)—crafted anthems blending rock, pop, and opera, including hits like “Bohemian Rhapsody,” “We Will Rock You,” and “Another One Bites the Dust.” Queen’s influence spans genres, and their groundbreaking live performances, notably at Live Aid in 1985, cemented their status as rock icons. Their impact endures, making Queen one of the most celebrated bands in music history.",
             "artist_image": "https://i.scdn.co/image/af2b8e57f6d7b5d43a616bd1e27ba552cd8bfd42"
+        },
+        {
+            "id": "2774c7b7-6e92-4a38-8062-1e788f1a4c31",
+            "name": "The Beatles",
+            "bio": "The Beatles, formed in Liverpool in 1960, are one of the most influential bands in music history. Comprising John Lennon, Paul McCartney, George Harrison, and Ringo Starr, they revolutionized pop and rock music with their innovative songwriting and evolving sound. From early hits like “I Want to Hold Your Hand” to groundbreaking albums such as Sgt. Pepper's Lonely Hearts Club Band and Abbey Road, The Beatles pushed musical boundaries and captured global attention. Their legacy extends beyond music, shaping culture and inspiring generations of artists and fans worldwide.",
+            "artist_image": "https://i.scdn.co/image/ab6761610000e5ebe9348cc01ff5d55971b22433"
+        },
+        {
+            "id": "f20b621e-b5f9-48d6-adcf-d3c14e508a63",
+            "name": "The Beach Boys",
+            "bio": "The Beach Boys, formed in Hawthorne, California, in 1961, are known for their rich harmonies and surf-inspired sound that defined the California lifestyle. Led by songwriter and producer Brian Wilson, along with brothers Carl and Dennis Wilson, cousin Mike Love, and friend Al Jardine, the band created hits like “Surfin’ U.S.A.,” “California Girls,” and the groundbreaking album Pet Sounds. Their innovative arrangements and lyrical themes of youth and freedom have made The Beach Boys one of America’s most beloved bands, leaving a lasting impact on pop and rock music worldwide.",
+            "artist_image": "https://i.scdn.co/image/ab6761610000517410d4a1b12c6ceda12d7cd248"
         }
     ],
     "genres": [
@@ -15,6 +27,10 @@
         {
             "id": "53a141af-c8e1-458f-ab83-23e004a9fa7d",
             "name": "hip_hop"
+        },
+        {
+            "id": "721efca7-b078-4331-903d-f40fc3a792ab",
+            "name": "pop"
         },
         {
             "id": "59fef5af-2a77-42bc-a81e-b4c9de9caf1f",
@@ -126,9 +142,20 @@
             },
             "genre": "440c2f17-253e-42cb-93d2-53a3b781dbce",
             "vinyl_grade": "7094c470-c1b3-4e86-bd23-50c77f2dc37a",
-            "conditon": "New",
+            "vinyl_conditon": "68fb2018-016b-4ab4-bb7f-c3ad32fe4c3f",
             "vinyl_image": "https://i.scdn.co/image/ab67616d0000b27392073196b99e8438a53c0cfd",
-            "format": "LP"
+            "format": "LP",
+            "release_year": "2024"
+        }
+    ],
+    "vinyls_condition": [
+        {
+            "id": "68fb2018-016b-4ab4-bb7f-c3ad32fe4c3f",
+            "name": "New"
+        },
+        {
+            "id": "1d750eb7-d366-4519-b0ba-4470c6613f0a",
+            "name": "Second-Hand"
         }
     ],
     "vinyls_grade": [
